@@ -1,0 +1,15 @@
+# Notes on completing Git Tutorial from Vuorre & Curley (2018) article
+Author: Jorge Valdés Kroff
+# Testing out whether we are pointed to the correct git directory. Some issues arose when we first tried to open a new R Project with git having already been installed. Initially, it looked like the global preferences were pointed to /usr/bin/git, but this did not allow us to establish a new repository and establish version control even though git had been installed. After some googling, we discovered that it was possible that after a new OS update, the directory was not pointed to the correct location. 
+# Here are some steps that aided us in figuring out the problem. 
+  # 1. In Terminal, type 'which git'
+  # 2. This will point to the actual directory where git can be found.
+  # 3. Change directory under Global Preferences to the correct directory.
+  # 4. It turns out that changing directory is not easy as the files are hidden: use the following command in Terminal to reveal hidden files: 'defaults write com.apple.finder AppleShowAllFiles YES'
+  # 5. Now the directory can be pointed.
+# There is an alternative method, although it did not end up working well for us.
+  # 1. In Terminal, type 'xcode-select --install'
+  # 2. Agree to install.
+  # 3. Then this should allow one to use the original git directory that is listed in R Studio. 
+# However, this did not work for me. 
+# I created two subdirectories and included some empty files in both of them just to illustrate a completed project. 
