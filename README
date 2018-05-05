@@ -13,3 +13,5 @@ Author: Jorge Valdés Kroff
   # 3. Then this should allow one to use the original git directory that is listed in R Studio. 
 # However, this did not work for me. 
 # I created two subdirectories and included some empty files in both of them just to illustrate a completed project. 
+####New Section
+# Continuing on with the article, I am following the section from p. 11.I have now started with creating a new respository in GitHub. The central repository was then linked to a new R project. The article states that you cannot do this in RStudio once a new project is established. However, when creating the new project, you need to add the github link as a directory and create a git repository. Then, I just copied over the old material into the new directory. 
